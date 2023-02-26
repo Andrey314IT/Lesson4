@@ -9,3 +9,10 @@ class Student(Person):
     self.grade += 1
   def __init__(self):
     super().__init__("Student")
+
+
+class Teacher(Person):
+  salary = 0
+  student = []
+
+student = Student()
